@@ -1,0 +1,5 @@
+/* pages/my.wxss */
+
+#app{
+  text-align: center;
+}

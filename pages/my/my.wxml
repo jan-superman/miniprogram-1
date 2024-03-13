@@ -1,0 +1,4 @@
+<!--pages/my.wxml-->
+<view id="app">
+第一个页面
+</view>

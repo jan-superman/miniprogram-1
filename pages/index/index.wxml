@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="app">
+    <view class="ad">
+      <image src="../../images/1.png" mode="" />
+      <view class="title">智慧校园门户</view>
+      <view class="info">
+        <view>学校概况 办事指南等功能</view>
+        <view>方便快捷 办事实时查看消息</view>
+      </view>
+      <navigator url="#" class="btn">去了解</navigator>
+    </view>
+    <view class="nav_bar">
+      <view class="bar_ul">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/school.svg" mode="" />
+          </view>
+          <view class="title">学校概况</view>
+        </navigator>
+      </view>
+      <view class="bar_ul">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/score.svg" mode="" />
+          </view>
+          <view class="title">成绩查询</view>
+        </navigator>
+      </view>
+      <view class="bar_ul">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/audio.svg" mode="" />
+          </view>
+          <view class="title">缴费入口</view>
+        </navigator>
+      </view>
+      <view class="bar_ul">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/danger.svg" mode="" />
+          </view>
+          <view class="title">学院预警</view>
+        </navigator>
+      </view>
+      <view class="bar_ul">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/all.svg" mode="" />
+          </view>
+          <view class="title">全部</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</scroll-view>
