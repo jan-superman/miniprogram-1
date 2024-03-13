@@ -52,5 +52,17 @@
         </navigator>
       </view>
     </view>
+    <view class="tag_bar">
+      <view class="bar_left">
+        <image src="../../images/man.png" mode=""/>
+        <view class="title">待办事项</view>
+        <view class="info">我的待办事项</view>
+      </view>
+      <view class="bar_right">
+        <image src="../../images/woman.png" mode=""/>
+        <view class="title">办事指南</view>
+        <view class="info">办事指南汇总</view>
+      </view>
+    </view>
   </view>
 </scroll-view>

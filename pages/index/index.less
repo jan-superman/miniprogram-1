@@ -154,5 +154,78 @@ page {
         }
       }
     }
+
+    .tag_bar {
+      box-sizing: border-box;
+      width: 100%;
+      height: 85px;
+      margin-top: 20px;
+      padding-left: 22px;
+      padding-right: 22px;
+      display: flex;
+      gap: 27px;
+      color: white;
+
+      view {
+        border-radius: 10px;
+        height: 100%;
+
+        image {
+          height: 86px;
+        }
+      }
+
+      .bar_left {
+        flex: 1;
+        background: linear-gradient(117.31deg, rgba(254, 178, 122, 1) 11.25%, rgba(255, 122, 92, 1) 95.53%);
+        position: relative;
+
+        image {
+          position: absolute;
+          width: 112px;
+        }
+
+        .title {
+          position: absolute;
+          font-size: 10px;
+          left: 83px;
+          top: 27px;
+        }
+
+        .info {
+          position: absolute;
+          left: 83px;
+          font-size: 9px;
+          top: 45px
+        }
+      }
+
+      .bar_right {
+        flex: 1;
+        background: linear-gradient(109.09deg, rgba(149, 249, 218, 1) 8.35%, rgba(83, 189, 232, 1) 122.08%);
+        position: relative;
+
+        image {
+          position: absolute;
+          width: 104px;
+          right: 0;
+        }
+
+        .title {
+          font-size: 9px;
+          top: 27px;
+          position: absolute;
+          font-size: 10px;
+          left: 18px;
+        }
+
+        .info {
+          left: 18px;
+          top: 45px;
+          font-size: 9px;
+          position: absolute;
+        }
+      }
+    }
   }
 }
