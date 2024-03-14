@@ -88,19 +88,19 @@ page {
 .scrollarea .app .nav_bar view:nth-child(5) :first-child .icon {
   background-color: #1E9DFF;
 }
-.scrollarea .app .nav_bar .bar_ul {
+.scrollarea .app .nav_bar .bar_li {
   height: 100%;
   width: 50px;
   flex: 1;
 }
-.scrollarea .app .nav_bar .bar_ul navigator {
+.scrollarea .app .nav_bar .bar_li navigator {
   display: flex;
   height: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-.scrollarea .app .nav_bar .bar_ul navigator .icon {
+.scrollarea .app .nav_bar .bar_li navigator .icon {
   width: 36px;
   height: 36px;
   background-color: brown;
@@ -109,11 +109,11 @@ page {
   justify-content: center;
   align-items: center;
 }
-.scrollarea .app .nav_bar .bar_ul navigator .icon image {
+.scrollarea .app .nav_bar .bar_li navigator .icon image {
   width: 20px;
   height: 20px;
 }
-.scrollarea .app .nav_bar .bar_ul navigator .title {
+.scrollarea .app .nav_bar .bar_li navigator .title {
   font-size: 12px;
 }
 .scrollarea .app .tag_bar {
@@ -177,4 +177,96 @@ page {
   top: 45px;
   font-size: 9px;
   position: absolute;
+}
+.scrollarea .app .run_time {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 20px;
+}
+.scrollarea .app .run_time view:first-child {
+  background-color: #00AD7B;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+.scrollarea .app .run_time view:first-child image {
+  width: 13px;
+  height: 13px;
+}
+.scrollarea .app .run_time view:last-child {
+  line-height: 20px;
+  font-size: 10px;
+}
+.scrollarea .app .guide {
+  width: 342px;
+  height: 140px;
+  position: relative;
+  margin: auto;
+  margin-top: 33px;
+  border-radius: 16px;
+}
+.scrollarea .app .guide image {
+  position: absolute;
+  height: 140px;
+  width: 157px;
+  right: 7px;
+}
+.scrollarea .app .guide .title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.scrollarea .app .guide .info {
+  position: absolute;
+  left: 20px;
+  top: 52px;
+  color: #9a9a9a;
+  font-size: 10px;
+  width: 110px;
+}
+.scrollarea .app .guide .btn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 58px;
+  height: 25px;
+  border-radius: 50px;
+  background: linear-gradient(92.1deg, #3fbdf5 11.29%, #84e3df 98.02%);
+  left: 20px;
+  top: 95px;
+  font-family: YSHaoShenTi-regular;
+  color: #ffffff;
+  font-size: 10px;
+  line-height: 25px;
+  padding-left: 7px;
+}
+.scrollarea .app .recommend {
+  width: 100%;
+  padding-left: 22px;
+  height: 108px;
+  margin-top: 25px;
+}
+.scrollarea .app .recommend .title {
+  line-height: 25px;
+  color: #101010;
+  font-size: 18px;
+  font-family: PingFangSC-medium;
+}
+.scrollarea .app .recommend .info {
+  margin-top: 5px;
+  line-height: 17px;
+  color: #797979;
+  font-size: 12px;
+  font-family: PingFangSC-regular;
+}
+.scrollarea .app .recommend .recommend_list {
+  margin-top: 14px;
+  background-color: lightgreen;
+  height: 147px;
 }
