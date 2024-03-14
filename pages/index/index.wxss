@@ -205,6 +205,7 @@ page {
   font-size: 10px;
 }
 .scrollarea .app .guide {
+  box-shadow: 3rpx 3rpx 10rpx 3rpx #e7e7e7;
   width: 342px;
   height: 140px;
   position: relative;
@@ -249,8 +250,9 @@ page {
 .scrollarea .app .recommend {
   width: 100%;
   padding-left: 22px;
-  height: 108px;
+  height: 208px;
   margin-top: 25px;
+  box-sizing: border-box;
 }
 .scrollarea .app .recommend .title {
   line-height: 25px;
@@ -265,8 +267,144 @@ page {
   font-size: 12px;
   font-family: PingFangSC-regular;
 }
-.scrollarea .app .recommend .recommend_list {
+.scrollarea .app .recommend .recommend_list_wrapper {
   margin-top: 14px;
-  background-color: lightgreen;
   height: 147px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li:nth-child(n+2) {
+  margin-left: 5px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li:nth-child(1) > view:first-child {
+  background: linear-gradient(133.41deg, #28e997 23.74%, #0eb091 87.96%);
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li:nth-child(2) > view:first-child {
+  background: linear-gradient(142.96deg, #fcc331 7.26%, #ff8a0e 87.5%);
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li:nth-child(3) > view:first-child {
+  background: linear-gradient(138.54deg, #0fc3fc -0.21%, #2e88d8 89.89%);
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li:nth-child(4) > view:first-child {
+  background: linear-gradient(138.54deg, #de868f -0.21%, #bd3124 89.89%);
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li {
+  box-shadow: 3rpx 3rpx 10rpx 3rpx #e7e7e7;
+  display: inline-block;
+  border-radius: 7px;
+  width: 111px;
+  height: 147px;
+  background-color: white;
+  align-items: center;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li view:first-child {
+  margin: auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li view:first-child image {
+  width: 20px;
+  height: 20px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li .num {
+  margin: auto;
+  width: 39px;
+  height: 12px;
+  line-height: 6px;
+  border-radius: 50px;
+  background-color: rgba(239, 239, 239, 0.61);
+  color: #101010;
+  font-size: 6px;
+  padding-left: 2px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  margin-bottom: 9px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li .num image {
+  height: 10px;
+  width: 10px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li .num view {
+  line-height: 12px;
+  margin-left: 2px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li .title {
+  text-align: center;
+  line-height: 14px;
+  color: #101010;
+  font-size: 10px;
+  margin-top: 5px;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li .info {
+  line-height: 12px;
+  color: #797979;
+  font-size: 8px;
+  text-align: center;
+}
+.scrollarea .app .recommend .recommend_list_wrapper .recommend_li image:last-child {
+  display: block;
+  margin: auto;
+  width: 24px;
+  height: 24px;
+}
+.scrollarea .app .news {
+  width: calc(100% - 44px);
+  margin: auto;
+  margin-top: 25px;
+}
+.scrollarea .app .news .news_bar {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  align-items: flex-end;
+}
+.scrollarea .app .news .news_bar .news_bar_li:first-child {
+  font-size: 18px;
+}
+.scrollarea .app .news .new_wrapper {
+  margin-top: 17px;
+  width: 100%;
+}
+.scrollarea .app .news .new_wrapper .news_li {
+  width: 100%;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.scrollarea .app .news .new_wrapper .news_li .news_left {
+  height: 100%;
+  max-width: 239px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.scrollarea .app .news .new_wrapper .news_li .news_left .news_title {
+  font-size: 14px;
+}
+.scrollarea .app .news .new_wrapper .news_li .news_left .news_author {
+  font-size: 10px;
+  color: rgba(154, 154, 154);
+}
+.scrollarea .app .news .new_wrapper .news_li .news_img {
+  width: 56px;
+  height: 56px;
+  position: relative;
+  border-radius: 6px;
+  background: linear-gradient(154.08deg, #b4fdff -0.04%, rgba(180, 253, 255, 0.2) 83.65%);
+}
+.scrollarea .app .news .new_wrapper .news_li .news_img image {
+  position: absolute;
+  bottom: 3px;
+  width: 45px;
+  height: 45px;
+}
+.scrollarea .app .news .new_wrapper .news_li:nth-child(n+2) {
+  margin-top: 25px;
 }

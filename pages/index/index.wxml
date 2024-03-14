@@ -81,7 +81,93 @@
     <view class="recommend">
       <view class="title">推荐应用</view>
       <view class="info">根据您最近浏览和办理应用为您推荐</view>
-      <view class="recommend_list"></view>
+      <scroll-view class="recommend_list_wrapper" enable-flex scroll-x>
+        <view class="recommend_li">
+          <view class="img">
+            <image src="../../images/score.svg" mode="" />
+          </view>
+          <view class="title">成绩查询</view>
+          <view class="info">查询当前及历史成绩</view>
+          <view class="num">
+            <image src="../../images/eyes.png" mode="" />
+            <view>200+</view>
+          </view>
+          <image src="../../images/add.png" mode="" />
+        </view>
+        <view class="recommend_li">
+          <view class="img">
+            <image src="../../images/appimgs/libray.png" mode="" />
+          </view>
+          <view class="title">图书借阅</view>
+          <view class="info">查看图书借阅记录</view>
+          <view class="num">
+            <image src="../../images/eyes.png" mode="" />
+            <view>100+</view>
+          </view>
+          <image src="../../images/add.png" mode="" />
+        </view>
+        <view class="recommend_li">
+          <view class="img">
+            <image src="../../images/appimgs/money.png" mode="" />
+          </view>
+          <view class="title">网上查询</view>
+          <view class="info">自助网上缴费</view>
+          <view class="num">
+            <image src="../../images/eyes.png" mode="" />
+            <view>150+</view>
+          </view>
+          <image src="../../images/add.png" mode="" />
+        </view>
+        <view class="recommend_li">
+          <view class="img">
+            <image src="../../images/danger.svg" mode="" />
+          </view>
+          <view class="title">学院预警</view>
+          <view class="info">查看学院预警信息</view>
+          <view class="num">
+            <image src="../../images/eyes.png" mode="" />
+            <view>200+</view>
+          </view>
+          <image src="../../images/add.png" mode="" />
+        </view>
+      </scroll-view>
+    </view>
+    <view class="news">
+      <view class="news_bar">
+        <view class="news_bar_li">通知公告</view>
+        <view class="news_bar_li">通知公告</view>
+        <view class="news_bar_li">综合信息</view>
+        <view class="news_bar_li">学术动态</view>
+      </view>
+      <scroll-view scroll-y class="new_wrapper">
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于加强新生入学后校园安全管理规范的通知</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/newOne.png" mode="" />
+          </view>
+        </view>
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于开展2023新生入学教育系列培训课程的指导</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/item2.png" mode="" />
+          </view>
+        </view>
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于加强新生入学后校园安全管理条例实行的通知</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/item1.png" mode="" />
+          </view>
+        </view>
+      </scroll-view>
     </view>
   </view>
 </scroll-view>

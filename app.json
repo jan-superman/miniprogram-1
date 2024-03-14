@@ -1,12 +1,19 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/my/my"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "智慧校园",
     "navigationBarBackgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "list": [
+      {"pagePath": "pages/index/index", "text": "主页", "iconPath": "./images/indexOne.png", "selectedIconPath": "./images/indexOne.png"},
+      {"pagePath": "pages/my/my", "text": "我的", "iconPath": "./images/my.png", "selectedIconPath": "./images/my.png"}
+    ]
   },
   "style": "v2",
   "componentFramework": "glass-easel",
