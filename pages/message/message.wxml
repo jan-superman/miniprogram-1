@@ -1,0 +1,89 @@
+<view class="top_search">
+  <view class="title">消息</view>
+  <view class="search_box">
+    <input type="text" placeholder="搜索应用 消息 新闻" />
+    <image src="../../images/search.png" mode="" />
+  </view>
+  <view class="scan_code">
+    <image src="../../images/scode.png" mode="" />
+  </view>
+  <view class="message">
+    <image src="../../images/mess.png" mode="" />
+  </view>
+</view>
+<scroll-view class="scrollarea">
+  <view class="nav_bar">
+    <view class="bar_li">
+      <navigator url="#">
+        <view class="icon">
+          <image src="../../images/messageimgs/1.png" mode="" />
+        </view>
+        <view class="title">待办</view>
+      </navigator>
+    </view>
+    <view class="bar_li">
+      <navigator url="#">
+        <view class="icon">
+          <image src="../../images/messageimgs/2.png" mode="" />
+        </view>
+        <view class="title">待阅</view>
+      </navigator>
+    </view>
+    <view class="bar_li">
+      <navigator url="#">
+        <view class="icon">
+          <image src="../../images/messageimgs/3.png" mode="" />
+        </view>
+        <view class="title">已办</view>
+      </navigator>
+    </view>
+    <view class="bar_li">
+      <navigator url="#">
+        <view class="icon">
+          <image src="../../images/messageimgs/4.png" mode="" />
+        </view>
+        <view class="title">已阅</view>
+      </navigator>
+    </view>
+    <view class="bar_li">
+      <navigator url="#">
+        <view class="icon">
+          <image src="../../images/messageimgs/5.png" mode="" />
+        </view>
+        <view class="title">系统</view>
+      </navigator>
+    </view>
+  </view>
+  <view class="messages">
+    <view class="message_li">
+      <view class="msg_left">
+        <image src="../../images/messageimgs/9.png" mode="" />
+      </view>
+      <view class="msg_center">
+        <view class="title">教职工请假申请</view>
+        <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+      </view>
+      <view class="msg_right">昨天</view>
+    </view>
+    <view class="message_li">
+      <view class="msg_left">
+        <image src="../../images/messageimgs/9.png" mode="" />
+      </view>
+      <view class="msg_center">
+        <view class="title">教职工请假申请</view>
+        <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+      </view>
+      <view class="msg_right">昨天</view>
+    </view>
+    <view class="message_li">
+      <view class="msg_left">
+        <image src="../../images/messageimgs/9.png" mode="" />
+      </view>
+      <view class="msg_center">
+        <view class="title">教职工请假申请</view>
+        <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+      </view>
+      <view class="msg_right">昨天</view>
+    </view>
+  </view>
+</scroll-view>

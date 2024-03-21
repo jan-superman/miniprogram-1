@@ -1,0 +1,60 @@
+<view class="top_search">
+  <view class="title">发现</view>
+  <view class="search_box">
+    <input type="text" placeholder="搜索应用 消息 新闻" />
+    <image src="../../images/search.png" mode="" />
+  </view>
+  <view class="scan_code">
+    <image src="../../images/scode.png" mode="" />
+  </view>
+  <view class="message">
+    <image src="../../images/mess.png" mode="" />
+  </view>
+</view>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="ad">
+    <image src="../../images/1.png" mode="" />
+    <view class="title">发现新鲜事</view>
+    <view class="info">
+      <view>校内各院系各部门重要新闻汇报</view>
+      <view>随时随地查看</view>
+    </view>
+  </view>
+  <view class="news">
+      <view class="news_bar">
+        <view class="news_bar_li">通知公告</view>
+        <view class="news_bar_li">通知公告</view>
+        <view class="news_bar_li">综合信息</view>
+        <view class="news_bar_li">学术动态</view>
+      </view>
+      <scroll-view scroll-y class="new_wrapper">
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于加强新生入学后校园安全管理规范的通知</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/newOne.png" mode="" />
+          </view>
+        </view>
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于开展2023新生入学教育系列培训课程的指导</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/item2.png" mode="" />
+          </view>
+        </view>
+        <view class="news_li">
+          <view class="news_left">
+            <view class="news_title">关于加强新生入学后校园安全管理条例实行的通知</view>
+            <view class="news_author">校园新闻网</view>
+          </view>
+          <view class="news_img">
+            <image src="../../images/item1.png" mode="" />
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+</scroll-view>

@@ -1,5 +1,225 @@
-/* pages/my.wxss */
-
-#app{
-  text-align: center;
+.scrollarea {
+  width: 100%;
+}
+.scrollarea .my_home {
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 191px;
+  background: linear-gradient(180deg, #3ad1ae 0%, rgba(255, 255, 255, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.scrollarea .my_home .my_home_tools {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.scrollarea .my_home .my_home_tools view image {
+  width: 20px;
+  height: 20px;
+}
+.scrollarea .my_home .my_home_info {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.scrollarea .my_home .my_home_info .info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.scrollarea .my_home .my_home_info .info .name {
+  color: #101010;
+  font-size: 20px;
+}
+.scrollarea .my_home .my_home_info .info .from {
+  color: #797979;
+  font-size: 12px;
+}
+.scrollarea .my_home .my_home_info .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.scrollarea .my_home .my_home_info .icon image {
+  width: 50px;
+  height: 50px;
+}
+.scrollarea .tag_bar {
+  margin-top: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 85px;
+  padding-left: 22px;
+  padding-right: 22px;
+  display: flex;
+  gap: 27px;
+  color: white;
+}
+.scrollarea .tag_bar > view {
+  border-radius: 10px;
+}
+.scrollarea .tag_bar view {
+  height: 100%;
+  overflow: hidden;
+}
+.scrollarea .tag_bar view image {
+  height: 86px;
+}
+.scrollarea .tag_bar .bar_left {
+  flex: 1;
+  background: linear-gradient(117.31deg, #fee800 11.25%, #ff960e 100%);
+  position: relative;
+}
+.scrollarea .tag_bar .bar_left image {
+  position: absolute;
+  width: 73px;
+  bottom: -25px;
+}
+.scrollarea .tag_bar .bar_left .title {
+  position: absolute;
+  font-size: 10px;
+  left: 83px;
+  top: 27px;
+}
+.scrollarea .tag_bar .bar_left .info {
+  position: absolute;
+  left: 83px;
+  font-size: 9px;
+  top: 45px;
+}
+.scrollarea .tag_bar .bar_right {
+  flex: 1;
+  background: linear-gradient(109.09deg, #95f9da 8.35%, #53bde8 122.08%);
+  position: relative;
+}
+.scrollarea .tag_bar .bar_right image {
+  position: absolute;
+  width: 78px;
+  height: 71px;
+  bottom: 0;
+}
+.scrollarea .tag_bar .bar_right .title {
+  font-size: 9px;
+  top: 27px;
+  position: absolute;
+  font-size: 10px;
+  right: 10px;
+}
+.scrollarea .tag_bar .bar_right .info {
+  right: 10px;
+  top: 45px;
+  font-size: 9px;
+  position: absolute;
+}
+.scrollarea .recommend {
+  width: 100%;
+  padding-left: 22px;
+  margin-top: 19px;
+}
+.scrollarea .recommend .title {
+  color: #101010;
+  font-size: 16px;
+}
+.scrollarea .recommend .messages {
+  width: 100%;
+  margin-top: 19px;
+}
+.scrollarea .recommend .messages .message_li:nth-child(n+2) {
+  margin-top: 44px;
+}
+.scrollarea .recommend .messages .message_li {
+  width: 100%;
+  height: 42px;
+  display: flex;
+}
+.scrollarea .recommend .messages .message_li .msg_left {
+  margin-right: 18px;
+}
+.scrollarea .recommend .messages .message_li .msg_left image {
+  width: 32px;
+  height: 32px;
+}
+.scrollarea .recommend .messages .message_li .msg_center {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.scrollarea .recommend .messages .message_li .msg_center .title {
+  color: #101010;
+  font-size: 14px;
+}
+.scrollarea .recommend .messages .message_li .msg_center .autor {
+  color: #9a9a9a;
+  font-size: 10px;
+}
+.scrollarea .recommend .messages .message_li .msg_right {
+  position: absolute;
+  margin-top: 5px;
+  color: #9a9a9a;
+  font-size: 10px;
+  right: 37px;
+}
+.scrollarea .news_li {
+  margin-top: 33px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.scrollarea .news_li .nav_bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.scrollarea .news_li .nav_bar view:nth-child(1) :first-child .icon {
+  background-color: #F6B059;
+}
+.scrollarea .news_li .nav_bar view:nth-child(2) :first-child .icon {
+  background-color: #8F6AFF;
+}
+.scrollarea .news_li .nav_bar view:nth-child(3) :first-child .icon {
+  background-color: #EC1E71;
+}
+.scrollarea .news_li .nav_bar view:nth-child(4) :first-child .icon {
+  background-color: #03E391;
+}
+.scrollarea .news_li .nav_bar view:nth-child(5) :first-child .icon {
+  background-color: #1E9DFF;
+}
+.scrollarea .news_li .nav_bar .bar_li {
+  margin-top: 25px;
+  height: 100%;
+  width: calc(100% / 4);
+}
+.scrollarea .news_li .nav_bar .bar_li navigator {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.scrollarea .news_li .nav_bar .bar_li navigator .icon {
+  width: 36px;
+  height: 36px;
+  background-color: brown;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scrollarea .news_li .nav_bar .bar_li navigator .icon image {
+  width: 20px;
+  height: 20px;
+}
+.scrollarea .news_li .nav_bar .bar_li navigator .title {
+  font-size: 12px;
 }

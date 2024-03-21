@@ -1,0 +1,181 @@
+<view class="top_search">
+  <view class="title">应用</view>
+  <view class="search_box">
+    <input type="text" placeholder="搜索应用 消息 新闻" />
+    <image src="../../images/search.png" mode="" />
+  </view>
+  <view class="scan_code">
+    <image src="../../images/scode.png" mode="" />
+  </view>
+  <view class="message">
+    <image src="../../images/mess.png" mode="" />
+  </view>
+</view>
+<scroll-view class="scrollarea">
+  <view class="tag_bar">
+    <view class="bar_left">
+      <image src="../../images/appgirl.png" mode="" />
+      <view class="title">待办事项</view>
+      <view class="info">我收藏的应用</view>
+    </view>
+    <view class="bar_right">
+      <image src="../../images/appboy.png" mode="" />
+      <view class="title">办事指南</view>
+      <view class="info">办事指南汇总</view>
+    </view>
+  </view>
+  <view class="recommend">
+    <view class="title">推荐应用</view>
+    <view class="info">根据您最近浏览和办理应用为您推荐</view>
+    <scroll-view class="recommend_list_wrapper" enable-flex scroll-x>
+      <view class="recommend_li">
+        <view class="img">
+          <image src="../../images/score.svg" mode="" />
+        </view>
+        <view class="title">成绩查询</view>
+        <view class="info">查询当前及历史成绩</view>
+        <view class="num">
+          <image src="../../images/eyes.png" mode="" />
+          <view>200+</view>
+        </view>
+        <image src="../../images/add.png" mode="" />
+      </view>
+      <view class="recommend_li">
+        <view class="img">
+          <image src="../../images/appimgs/libray.png" mode="" />
+        </view>
+        <view class="title">图书借阅</view>
+        <view class="info">查看图书借阅记录</view>
+        <view class="num">
+          <image src="../../images/eyes.png" mode="" />
+          <view>100+</view>
+        </view>
+        <image src="../../images/add.png" mode="" />
+      </view>
+      <view class="recommend_li">
+        <view class="img">
+          <image src="../../images/appimgs/money.png" mode="" />
+        </view>
+        <view class="title">网上查询</view>
+        <view class="info">自助网上缴费</view>
+        <view class="num">
+          <image src="../../images/eyes.png" mode="" />
+          <view>150+</view>
+        </view>
+        <image src="../../images/add.png" mode="" />
+      </view>
+      <view class="recommend_li">
+        <view class="img">
+          <image src="../../images/danger.svg" mode="" />
+        </view>
+        <view class="title">学院预警</view>
+        <view class="info">查看学院预警信息</view>
+        <view class="num">
+          <image src="../../images/eyes.png" mode="" />
+          <view>200+</view>
+        </view>
+        <image src="../../images/add.png" mode="" />
+      </view>
+    </scroll-view>
+  </view>
+  <view class="news">
+    <view class="news_bar">
+      <view class="news_bar_li">最新上线</view>
+      <view class="news_bar_li">电子商务</view>
+      <view class="news_bar_li">教学服务</view>
+      <view class="news_bar_li">科研服务</view>
+    </view>
+    <scroll-view scroll-y class="new_wrapper">
+      <view class="news_li">
+        <view class="title">最新上线</view>
+        <view class="nav_bar">
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/school.svg" mode="" />
+              </view>
+              <view class="title">学校概况</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/score.svg" mode="" />
+              </view>
+              <view class="title">成绩查询</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/audio.svg" mode="" />
+              </view>
+              <view class="title">缴费入口</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/danger.svg" mode="" />
+              </view>
+              <view class="title">学院预警</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/all.svg" mode="" />
+              </view>
+              <view class="title">全部</view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+      <view class="news_li">
+        <view class="title">电子教务</view>
+        <view class="nav_bar">
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/school.svg" mode="" />
+              </view>
+              <view class="title">学校概况</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/score.svg" mode="" />
+              </view>
+              <view class="title">成绩查询</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/audio.svg" mode="" />
+              </view>
+              <view class="title">缴费入口</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/danger.svg" mode="" />
+              </view>
+              <view class="title">学院预警</view>
+            </navigator>
+          </view>
+          <view class="bar_li">
+            <navigator url="#">
+              <view class="icon">
+                <image src="../../images/all.svg" mode="" />
+              </view>
+              <view class="title">全部</view>
+            </navigator>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</scroll-view>

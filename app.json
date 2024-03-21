@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs",
+    "pages/application/application",
+    "pages/message/message",
+    "pages/more/more",
     "pages/my/my"
   ],
   "window": {
@@ -11,8 +13,36 @@
   },
   "tabBar": {
     "list": [
-      {"pagePath": "pages/index/index", "text": "主页", "iconPath": "./images/indexOne.png", "selectedIconPath": "./images/indexOne.png"},
-      {"pagePath": "pages/my/my", "text": "我的", "iconPath": "./images/my.png", "selectedIconPath": "./images/my.png"}
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "./images/indexOne.png",
+        "selectedIconPath": "./images/indexOne.png"
+      },
+      {
+        "pagePath": "pages/application/application",
+        "text": "应用",
+        "iconPath": "./images/app.png",
+        "selectedIconPath": "./images/app.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "./images/message.png",
+        "selectedIconPath": "./images/message.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "发现",
+        "iconPath": "./images/findation.png",
+        "selectedIconPath": "./images/findation.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/my.png"
+      }
     ]
   },
   "style": "v2",

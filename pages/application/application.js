@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/application/application.js
 Page({
 
   /**

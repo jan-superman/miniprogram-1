@@ -1,4 +1,159 @@
-<!--pages/my.wxml-->
-<view id="app">
-第一个页面
-</view>
+<scroll-view class="scrollarea">
+  <view class="my_home">
+    <view class="my_home_tools">
+      <view class="home_set">
+        <image src="../../images/myimgs/set.png" mode="" />
+      </view>
+      <view class="title">我的</view>
+      <view class="home_message">
+        <image src="../../images/myimgs/info.png" mode="" />
+      </view>
+    </view>
+    <view class="my_home_info">
+      <view class="info">
+        <view class="name">宋歌</view>
+        <view class="from">信息化管理中心</view>
+      </view>
+      <view class="icon">
+        <image src="../../images/myimgs/avater.png" mode="" />
+      </view>
+    </view>
+  </view>
+  <view class="tag_bar">
+    <view class="bar_left">
+      <image src="../../images/appgirl.png" mode="" />
+      <view class="title">待办事项</view>
+      <view class="info">我收藏的应用</view>
+    </view>
+    <view class="bar_right">
+      <image src="../../images/appboy.png" mode="" />
+      <view class="title">办事指南</view>
+      <view class="info">办事指南汇总</view>
+    </view>
+  </view>
+  <view class="recommend">
+    <view class="title">推荐应用</view>
+    <view class="messages">
+      <view class="message_li">
+        <view class="msg_left">
+          <image src="../../images/messageimgs/9.png" mode="" />
+        </view>
+        <view class="msg_center">
+          <view class="title">教职工请假申请</view>
+          <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+        </view>
+        <view class="msg_right">昨天</view>
+      </view>
+      <view class="message_li">
+        <view class="msg_left">
+          <image src="../../images/messageimgs/9.png" mode="" />
+        </view>
+        <view class="msg_center">
+          <view class="title">教职工请假申请</view>
+          <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+        </view>
+        <view class="msg_right">昨天</view>
+      </view>
+      <view class="message_li">
+        <view class="msg_left">
+          <image src="../../images/messageimgs/9.png" mode="" />
+        </view>
+        <view class="msg_center">
+          <view class="title">教职工请假申请</view>
+          <view class="autor">工作部门:系统维护 请假申请人:xxx</view>
+        </view>
+        <view class="msg_right">昨天</view>
+      </view>
+    </view>
+  </view>
+  <view class="news_li">
+    <view class="title">最新上线</view>
+    <view class="nav_bar">
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/school.svg" mode="" />
+          </view>
+          <view class="title">学校概况</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/score.svg" mode="" />
+          </view>
+          <view class="title">成绩查询</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/audio.svg" mode="" />
+          </view>
+          <view class="title">缴费入口</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/danger.svg" mode="" />
+          </view>
+          <view class="title">学院预警</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/all.svg" mode="" />
+          </view>
+          <view class="title">全部</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+  <view class="news_li">
+    <view class="title">电子教务</view>
+    <view class="nav_bar">
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/school.svg" mode="" />
+          </view>
+          <view class="title">学校概况</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/score.svg" mode="" />
+          </view>
+          <view class="title">成绩查询</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/audio.svg" mode="" />
+          </view>
+          <view class="title">缴费入口</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/danger.svg" mode="" />
+          </view>
+          <view class="title">学院预警</view>
+        </navigator>
+      </view>
+      <view class="bar_li">
+        <navigator url="#">
+          <view class="icon">
+            <image src="../../images/all.svg" mode="" />
+          </view>
+          <view class="title">全部</view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</scroll-view>
