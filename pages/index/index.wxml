@@ -1,6 +1,15 @@
-<!--index.wxml-->
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="app">
+    <view class="swiper_img">
+      <swiper autoplay>
+        <swiper-item>
+          <image src="../../images/item1.png" mode="" />
+        </swiper-item>
+        <swiper-item>
+          <image src="../../images/item2.png" mode="" />
+        </swiper-item>
+      </swiper>
+    </view>
     <view class="ad">
       <image src="../../images/1.png" mode="" />
       <view class="title">智慧校园门户</view>
@@ -139,6 +148,8 @@
         <view class="news_bar_li">综合信息</view>
         <view class="news_bar_li">学术动态</view>
       </view>
+
+
       <scroll-view scroll-y class="new_wrapper">
         <view class="news_li">
           <view class="news_left">
